@@ -1,0 +1,52 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-page, .admin-page, .dashboard-page {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+}
+
+.login-box, .admin-box, .dashboard-box {
+  background: white;
+  color: #333;
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 0.8em;
+  margin: 1em 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.8em 1.5em;
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a5fe0;
+}
+
+a {
+  display: block;
+  margin-top: 1em;
+  color: #2575fc;
+  text-decoration: none;
+}
